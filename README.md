@@ -1,0 +1,1 @@
+The purpose of this project is to somewhat replicate the Google homepage found at https://www.google.com

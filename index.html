@@ -1,0 +1,152 @@
+<style>
+.logo {background-color: rgb(255, 255, 255);
+    display: block;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+cursor: pointer;}
+
+ul {display: inline-block;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px}
+
+
+
+
+.left-links {float: left;}
+
+.bottom-left {float: left;
+    color: #70757a;}
+
+.right-links {float:right;}
+
+.bottom-right {float: right;
+    color: #70757a;}
+
+a {display: block;
+    padding: 8px;
+    color: #222;
+    text-decoration: none;} 
+a:hover {text-decoration: underline;}
+    
+.space-two {padding: 15%;}
+
+footer {position:fixed;
+left:0;
+bottom:0;
+width:100%;
+background-color: #f2f2f2;
+color: #70757a !important;
+border-top: 1px solid #dadce0;}
+
+.nav-bot{background-color: #f2f2f2;
+    color: #70757a;
+}
+
+
+.space {padding: 80.5px;}
+
+.search-button {display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+    
+
+button {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #f8f9fa;;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    margin: 11px 4px;
+    height: 36px;
+    cursor: pointer;}  
+
+button:hover {
+    box-shadow:0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.wrapper {position: relative;
+display: flex;
+justify-content: ;}
+
+.search-icon {
+top: 10px;
+left: 100px;
+height: 20px;
+width: 20px;
+opacity: 40%;}
+
+.search-bar {
+    background: #fff;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 560px;
+    height: 39px;
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: rgba(36, 36, 36, 0.171);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;}
+
+.search-bar:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-bar:focus {border: none;}
+</style>
+
+
+<!DOCTYPE html>
+<html>
+    <head></head>
+<body>
+<ul>
+    <li class="left-links"><a href="#">About</a></li>
+    <li class="left-links"><a href="#">Store</a></li>
+    <li class="right-links"><a href="#">Images</a></li>
+    <li class="right-links"><a href="#">Gmail</a></li>
+  
+</ul>
+<div class="space"></div>
+   <a href="#" ><img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></a>
+
+<div class="wrapper">
+    <!--<img class="search-icon" src="black-24dp/2x/outline_search_black_24dp.png">-->
+    <input class="search-bar" type="text">
+</div>
+
+<div class="search-button">
+    <button type="button">Google Search</button>
+    <button type="button">I'm Feeling Lucky</button>
+</div>
+
+<div class="space-two"></div>
+
+<footer>
+    <ul class="nav-bot">
+        <li class="bottom-left"><a style="color: 70757a;" href="#">Advertising</a></li>
+        <li class="bottom-left"><a style="color: 70757a;" href="#">Business</a></li>
+        <li class="bottom-left"><a style="color: 70757a;" href="#">How Search works</a></li>
+        <li class="bottom-right"><a style="color: 70757a;" href="#">Privacy</a></li>
+        <li class="bottom-right"><a style="color: 70757a;" href="#">Terms</a></li>
+        <li class="bottom-right"><a style="color: 70757a;" href="#">Settings</a></li>
+    </ul>
+</footer>
+</body>
+</html>
